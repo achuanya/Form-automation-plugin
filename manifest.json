@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "填充助手",
+  "version": "1.0",
+  "description": "提升您的表单自动化体验，方便快速评论。",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "src/images/icon16.png",
+      "48": "src/images/icon48.png",
+      "128": "src/images/icon128.png"
+    },
+    "default_title": "填充助手"
+  },
+  "background": {
+    "service_worker": "dist/eventHandler.min.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["dist/formManager.min.js", "dist/autoFill.min.js"],
+      "css": ["dist/main.min.css"]
+
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "index.html"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

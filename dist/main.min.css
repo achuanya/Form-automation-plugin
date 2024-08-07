@@ -1,0 +1,176 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4645566 */
+  src: url(33a80cb13f78b37acb39.woff2?t=1722983875701) format('woff2'),
+       url(8521c461ad88443142d9.woff?t=1722983875701) format('woff'),
+       url(8093dd36a9b1ec918992.ttf?t=1722983875701) format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-github:before {
+  content: "\e628";
+}
+
+.icon-boke:before {
+  content: "\e6ab";
+}
+
+.icon-shezhi:before {
+  content: "\e643";
+}
+
+.icon-guanyu:before {
+  content: "\e655";
+}
+
+.icon-chanpinguanli:before {
+  content: "\e60e";
+}
+
+
+/* Reset CSS */
+body, h1, form, input, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.my-extension-container {
+  font-family: -apple-system, "Noto Sans", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.my-extension-container .dl-container {
+  display: flex;
+  width: 900px;
+  height: 600px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+.dl-sidebar {
+  width: 240px;
+  border-right: 1px solid #e0e0e0;
+  background-color: #f7f9fb;
+  padding: 20px;
+}
+
+.dl-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dl-menu li {
+  margin-bottom: 20px;
+}
+
+.dl-menu a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.dl-menu a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.dl-menu .icon {
+  margin-right: 10px;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+.dl-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.heading {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.settings-container {
+  flex-direction: column;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.settings-section {
+  margin-bottom: 20px;
+}
+
+.settings-section label {
+  display: block;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.settings-section input {
+  width: 300px;
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #333;
+}
+
+.btn-save {
+  width: 300px;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #007aff;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.btn-save:hover {
+  background-color: #0056b3;
+}
+
+.dl-footer {
+  border-top: 1px solid #e0e0e0;
+  padding: 10px;
+  text-align: center;
+}
+
+input[disabled] {
+  background-color: #f0f0f0;
+  cursor: not-allowed;
+}
+
+/* 确保按钮在禁用输入框时样式不变 */
+input:disabled {
+  background-color: #f0f0f0;
+}
