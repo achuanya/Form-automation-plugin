@@ -2,7 +2,9 @@
 
 Chrome 表单自动化插件
 
-提升您的表单自动化体验，方便快速评论。
+在刷博客的时候，最麻烦的事情之一就是手动填写各种表单。为了提高我的冲浪体验，诞生了这款表单自动化插件，兼容绝大数博客
+
+BLOG：<a href="https://lhasa.icu/FormAutomationPlugin.html" target="_blank">写一个Chrome表单自动化插件</a>
 
 如果您有不同的意见<haibao1027@gmail.com> or 博客留言。
 
